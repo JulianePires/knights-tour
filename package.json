@@ -1,9 +1,0 @@
-{
-  "name": "knights-tour",
-  "version": "1.0.0",
-  "description": "A solution to the Knight's Tour problem using Backtracking Algorithm with the Warnsdorff’s heuristc",
-  "main": "index.js",
-  "repository": "https://github.com/JulianePires/knights-tour",
-  "author": "Juliane Pires",
-  "license": "MIT"
-}
