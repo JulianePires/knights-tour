@@ -1,9 +1,37 @@
 {
-  "name": "knights-tour",
+  "name": "passeiodocavalo",
   "version": "1.0.0",
-  "description": "A solution to the Knight's Tour problem using Backtracking Algorithm with the Warnsdorff’s heuristc",
+  "description": "Algoritmo de Backtracking aplicado à solução do problema do passeio do cavalo",
   "main": "index.js",
-  "repository": "https://github.com/JulianePires/knights-tour",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js && livereload",
+    "live": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianePires/knights-tour.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "backtracking",
+    "algorithms",
+    "data",
+    "structure"
+  ],
   "author": "Juliane Pires",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulianePires/knights-tour/issues"
+  },
+  "homepage": "https://github.com/JulianePires/knights-tour#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.7"
+  }
 }
