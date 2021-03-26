@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/JulianePires/knights-tour#readme",
   "dependencies": {
-    "inquirer": "^8.0.0",
     "require": "^2.4.20"
   },
   "devDependencies": {
